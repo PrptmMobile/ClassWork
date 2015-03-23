@@ -1,6 +1,7 @@
 package lesson150319.abstracts;
 
-public final class Lada extends Car {
+public class Lada extends Car {
+//	public final class Lada extends Car {  'final' forbids inheritance
 	
 	@Override
 	public void moveTo(final int x, final int y) {
@@ -15,8 +16,8 @@ public final class Lada extends Car {
 //	public abstract void something(); ERROR!
 	
 
-	public void turnOn() {
-		
-	}
+//	public void turnOn() {   ERROR!
+//		
+//	}
 	
 }
