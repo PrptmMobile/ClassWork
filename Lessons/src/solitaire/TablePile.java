@@ -17,11 +17,11 @@ class TablePile extends CardPile {
 
 	public boolean canTake(final Card aCard) {
 		if (empty()) {
-			return aCard.rank() == 12;
+			return aCard.isKing();
 		}
 		Card topCard = top();
 		return (aCard.color() != topCard.color())
-				&& (aCard.rank() == topCard.rank() - 1);
+				&& (aCard.getRank() == topCard.getRank() - 1);
 	}
 
 	public void display(final Graphics g) {
@@ -40,7 +40,7 @@ class TablePile extends CardPile {
 
 		// if face down, then flip
 		Card topCard = top();
-		if (!topCard.faceUp()) {
+		if (!topCard.isFaceUp()) {
 			topCard.flip();
 			return;
 		}

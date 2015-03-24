@@ -7,11 +7,8 @@ class CardPile {
 
 	private Card firstCard;
 
-	// access to cards are not overridden
-
 	// coordinates of the card pile
 	protected int x;
-
 	protected int y;
 
 	CardPile(final int xl, final int yl) {
