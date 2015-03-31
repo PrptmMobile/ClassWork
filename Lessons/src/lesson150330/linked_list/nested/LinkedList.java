@@ -35,6 +35,12 @@ public class LinkedList implements Iterable {
 			return item;
 		}
 
+		@Override
+		public void remove() {
+			// TODO Auto-generated method stub
+			
+		}
+
 	}
 
 	Node first, last;

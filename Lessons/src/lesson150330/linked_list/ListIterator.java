@@ -24,4 +24,10 @@ public class ListIterator implements Iterator {
 		return item;
 	}
 
+	@Override
+	public void remove() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
