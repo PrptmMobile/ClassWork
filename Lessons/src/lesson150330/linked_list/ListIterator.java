@@ -26,8 +26,7 @@ public class ListIterator implements Iterator {
 
 	@Override
 	public void remove() {
-		// TODO Auto-generated method stub
-		
+		// ignore
 	}
 
 }

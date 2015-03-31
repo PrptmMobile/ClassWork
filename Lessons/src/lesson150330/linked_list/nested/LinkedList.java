@@ -37,8 +37,7 @@ public class LinkedList implements Iterable {
 
 		@Override
 		public void remove() {
-			// TODO Auto-generated method stub
-			
+			// ignore
 		}
 
 	}
