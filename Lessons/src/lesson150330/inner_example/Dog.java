@@ -13,8 +13,8 @@ public class Dog {
 		}
 
 		public void feed() {
-			Dog.this.state = new Good();
-			bark();
+			Dog.this.state = Dog.this.new Good();
+			Dog.this.bark();
 		}
 	}
 	
@@ -42,9 +42,6 @@ public class Dog {
 		state = new Evil();
 	}
 	
-	
-
-
 	public void stroke() {
 		state.stroke();
 	}
