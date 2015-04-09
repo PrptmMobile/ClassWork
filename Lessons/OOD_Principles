@@ -1,0 +1,28 @@
+DRY  Don't repeat yourself
+KISS  keep it simple, stupid
+YAGNI  you ain't gonna need it
+
+SOLID:  (http://sergeyteplyakov.blogspot.ru/2014/10/solid.html)
+
+- S -  SRP (Single Responsibility Principle)
+- O – The Open-Closed Principle
+- L -  Liskov Substitution Principle
+- I – Interface Segregation Principle
+- D – The Dependency Inversion Principle
+	IoC  inversion of control
+	Dependency Injection
+		Spring 
+		Google Giuce
+
+http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns)
+
+Examples:
+
+https://github.com/iluwatar/java-design-patterns
+
+CheatSheet
+http://www.celinio.net/techblog/wp-content/uploads/2009/09/designpatterns1.jpg
+
+Book Site:
+http://c2.com/cgi/wiki?DesignPatternsBook
+		
