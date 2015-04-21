@@ -1,6 +1,10 @@
 package lesson150420.patterns.command;
 
 public class Calculator {
+
+	// TODO
+	//  java Calculator 10 plus 20 plus 100 minus 30 get
+	
 	
 	abstract class Command {
 		public void execute() {
