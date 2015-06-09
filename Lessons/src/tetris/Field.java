@@ -16,4 +16,8 @@ public class Field {
 		return _data.length;
 	}
 
+	public int[][] getData() {
+		return _data;
+	}
+
 }
